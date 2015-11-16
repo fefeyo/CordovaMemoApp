@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- CSP support mode (required for Windows Universal apps): https://docs.angularjs.org/api/ng/directive/ngCsp -->
+<html lang="ja" ng-app="app" ng-csp>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes"/>
+
+    <script src="scripts/platformOverrides.js"></script>
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/onsen/js/onsenui.js"></script>
+
+    <link rel="stylesheet" href="lib/onsen/css/onsenui.css" />
+    <link rel="stylesheet" href="lib/onsen/css/onsen-css-components-blue-basic-theme.css" />
+    <link rel="stylesheet" href="lib/angular/angular-csp.css" />
+
+    <script src="js/app.js"></script>
+
+    <title>メモ帳アプリ</title>
+
+    <style>
+        .nav-title {
+            font-size: 25px;
+        }
+        .memo-title {
+            font-size: 20px;
+            margin: 10px 10px;
+        }
+        .memo-contains {
+            font-size: 15px;
+            margin: 10px 10px;
+        }
+    </style>
+
+</head>
+
+<body ng-controller="AppController">
+    <script src="cordova.js"></script>
+    <script src="scripts/index.js"></script>
+
+    <ons-navigator var="app.navi" animation="slide">
+    <ons-page>
+    <ons-toolbar>
+    <div class="center nav-title">メモ一覧</div>
+</ons-toolbar>
+<ons-list ng-controller="listCtrl">
+<ons-list-item ng-repeat="memo in memos" ng-show="memos.length">
+<p class="memo-title">{{memo.title}}</p>
+<p class="memo-contains">{{memo.memo}}</p>
+</ons-list-item>
+<p ng-hide="memos.length">メモがありません</p>
+</ons-list>
+</ons-page>
+</ons-navigator>
+<ons-template id="page.html">
+<ons-page>
+<ons-toolbar>
+<div class="center">Title</div>
+</ons-toolbar>
+<p style="text-align: center;">
+    <ons-button modifier="light" ng-click="app.navi.popPage('page.html')">Pop</ons-button>
+</p>
+</ons-page>
+</ons-template>
+
+</body>
+</html>
+
+
+
