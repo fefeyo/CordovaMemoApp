@@ -14,9 +14,6 @@
     <link rel="stylesheet" href="lib/onsen/css/onsenui.css" />
     <link rel="stylesheet" href="lib/onsen/css/onsen-css-components-blue-basic-theme.css" />
     <link rel="stylesheet" href="lib/angular/angular-csp.css" />
-
-    <script src="js/app.js"></script>
-
     <title>メモ帳アプリ</title>
 
     <style>
@@ -42,6 +39,10 @@
             font-size: 1.0em;
             margin: 10px 10px;
         }
+        .memo-time {
+            font-size: 0.8em;
+            text-align: right;
+        }
         #detail-container {
             width: 80%;
             margin: 0 auto;
@@ -57,6 +58,7 @@
             font-size: 1.0em;
             height: 300px;
             width: 100%;
+            resize: none;
         }
 
     </style>
@@ -64,19 +66,18 @@
 </head>
 
 <body ng-controller="MainController as main">
-    <script src="cordova.js"></script>
-    <script src="scripts/index.js"></script>
 
     <ons-navigator var="app.navi" animation="slide">
     <ons-page>
     <ons-toolbar>
     <div class="center nav-title">メモ一覧</div>
-    <div class="right"><ons-toolbar-button><ons-icon icon="fa-pencil"></ons-icon></ons-toolbar-button></div>
+    <div class="right"><ons-toolbar-button ng-click="main.createMemo()"><ons-icon icon="fa-pencil"></ons-icon></ons-toolbar-button></div>
 </ons-toolbar>
 <ons-list ng-controller="ListController as list">
 <ons-list-item ng-repeat="memo in list.memos" ng-show="list.memos.length" ng-click="list.goDetail($index)">
 <p class="memo-title">{{memo.title}}</p>
-<p class="memo-contains">{{memo.memo}}</p>
+<p class="memo-contains">{{memo.content}}</p>
+<p class="memo-time">{{memo.time}}</p>
 </ons-list-item>
 <p ng-hide="list.memos.length">メモがありません</p>
 </ons-list>
@@ -86,21 +87,27 @@
 <ons-template id="page.html">
 <ons-page ng-controller="DetailController as detail">
 <ons-toolbar>
-<div class="left"><ons-toolbar-button><ons-icon icon="fa-arrow-circle-left" ng-click="app.navi.popPage('page.html')"></ons-icon></ons-toolbar-button></div>
+<div class="left"><ons-toolbar-button ng-click="app.navi.popPage('page.html')"><ons-icon icon="fa-arrow-circle-left"></ons-icon></ons-toolbar-button></div>
 <div class="center nav-title">{{detail.title}}</div>
-<div class="right"><ons-toolbar-button><ons-icon icon="fa-save"></ons-icon></ons-toolbar-button></div>
+<div class="right"><ons-toolbar-button ng-click="detail.save()"><ons-icon icon="fa-save"></ons-icon></ons-toolbar-button></div>
 </ons-toolbar>
 
 <div id="detail-container">
     <h1>タイトル</h1>
-    <input type="text">
+    <input type="text" ng-model="detail.title">
     <h1>メモ</h1>
-    <textarea></textarea>
+    <textarea ng-model="detail.content"></textarea>
 </div>
 
 </ons-page>
 </ons-template>
 
+<script src="cordova.js"></script>
+<script src="lib/jquery-2.1.4.min.js"></script>
+<script src="lib/bower_components/angular-cookies/angular-cookies.js"></script>
+<script src="lib/bower_components/angularLocalStorage/src/angularLocalStorage.js"></script>
+<script src="scripts/index.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
 

@@ -1,47 +1,59 @@
 // var module = ons.bootstrap('app', ['onsen']);
-var module = angular.module('app', ['onsen']);
+var module = angular.module('app', ['onsen', 'angularLocalStorage']);
 
-module.factory('MemoData', function(){
+module.factory('MemoData', ['storage', function(storage){
   var memodata = {};
-  memodata.currentItem = {};
-  memodata.memos = [
-  {"title": "タイトル１", "memo": "メモ１", "time": "00:00:00"},
-  {"title": "タイトル２", "memo": "メモ２", "time": "00:00:00"},
-  {"title": "タイトル３", "memo": "メモ３", "time": "00:00:00"}
-  ];
+  memodata.currentItemIndex = "";
+  memodata.memos = JSON.parse(storage.get('memo'));
+  if(memodata.memos === null) memodata.memos = [];
   return memodata;
-});
+}]);
 
 module.controller('MainController',['MemoData', function(MemoData){
   this.createMemo = function(){
     app.navi.pushPage('page.html');
-    MemoData.currentItem = "";
+    MemoData.currentItemIndex = "";
   };
 }]);
 
 module.controller('ListController', ['MemoData', function(MemoData){
   this.goDetail = function(index){
-    MemoData.currentItem = this.memos[index];
+    MemoData.currentItemIndex = index;
     app.navi.pushPage('page.html');
   };
   this.memos = MemoData.memos;
+  console.log(this.memos);
 }]);
 
-module.controller('DetailController', ['MemoData', function(MemoData){
-  if(!MemoData.currentItem){
-    this.title = "";
+module.controller('DetailController', ['MemoData', 'storage', function(MemoData, storage){
+  var isNew = false;
+  var index = MemoData.currentItemIndex;
+  this.time = new Date();
+  if(index === ""){
+    this.title = "新規のメモ";
     this.content = "";
-    this.time = "";
+    isNew = true;
   }else{
-    this.title = MemoData.currentItem.title;
-    this.content = MemoData.currentItem.content;
-    this.time = MemoData.currentItem.time;
+    this.title = MemoData.memos[index].title;
+    this.content = MemoData.memos[index].content;
+    isNew = false;
   }
   this.save = function(){
-    this.saveItem = {
-      "title": this.title,
-      "content": this.content,
-      "time": this.time
-    };
+    if(isNew){
+      var saveItem = {
+        "title": this.title,
+        "content": this.content,
+        "time": this.time
+      };
+      MemoData.memos.push(saveItem);
+    }else{
+      MemoData.memos[MemoData.currentItemIndex] = {
+        "title": this.title,
+        "content": this.content,
+        "time": this.time
+      };
+    }
+    storage.set('memo', JSON.stringify(MemoData.memos));
+    app.navi.popPage('page.html');
   };
 }]);
