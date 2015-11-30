@@ -20,22 +20,50 @@
     <title>メモ帳アプリ</title>
 
     <style>
+        body {
+            margin-top: 20px;
+            font-size: 20px;
+            font-family: "Meiryo", "メイリオ";
+        }
+        h1 {
+            font-size: 1.8em;
+            font-family: "ＭＳ ゴシック"
+        }
         .nav-title {
-            font-size: 25px;
+            font-size: 1.5em;
+            font-family: "ＭＳ ゴシック"
         }
         .memo-title {
-            font-size: 20px;
+            font-size: 1.3em;
             margin: 10px 10px;
+            font-family: "Meiryo", "メイリオ";
         }
         .memo-contains {
-            font-size: 15px;
+            font-size: 1.0em;
             margin: 10px 10px;
         }
+        #detail-container {
+            width: 80%;
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+        #detail-container input{
+            font-size: 1.0em;
+            height: 30px;
+            width: 100%;
+        }
+
+        #detail-container textarea {
+            font-size: 1.0em;
+            height: 300px;
+            width: 100%;
+        }
+
     </style>
 
 </head>
 
-<body ng-controller="AppController">
+<body ng-controller="MainController as main">
     <script src="cordova.js"></script>
     <script src="scripts/index.js"></script>
 
@@ -43,24 +71,33 @@
     <ons-page>
     <ons-toolbar>
     <div class="center nav-title">メモ一覧</div>
+    <div class="right"><ons-toolbar-button><ons-icon icon="fa-pencil"></ons-icon></ons-toolbar-button></div>
 </ons-toolbar>
-<ons-list ng-controller="listCtrl">
-<ons-list-item ng-repeat="memo in memos" ng-show="memos.length">
+<ons-list ng-controller="ListController as list">
+<ons-list-item ng-repeat="memo in list.memos" ng-show="list.memos.length" ng-click="list.goDetail($index)">
 <p class="memo-title">{{memo.title}}</p>
 <p class="memo-contains">{{memo.memo}}</p>
 </ons-list-item>
-<p ng-hide="memos.length">メモがありません</p>
+<p ng-hide="list.memos.length">メモがありません</p>
 </ons-list>
 </ons-page>
 </ons-navigator>
+
 <ons-template id="page.html">
-<ons-page>
+<ons-page ng-controller="DetailController as detail">
 <ons-toolbar>
-<div class="center">Title</div>
+<div class="left"><ons-toolbar-button><ons-icon icon="fa-arrow-circle-left" ng-click="app.navi.popPage('page.html')"></ons-icon></ons-toolbar-button></div>
+<div class="center nav-title">{{detail.title}}</div>
+<div class="right"><ons-toolbar-button><ons-icon icon="fa-save"></ons-icon></ons-toolbar-button></div>
 </ons-toolbar>
-<p style="text-align: center;">
-    <ons-button modifier="light" ng-click="app.navi.popPage('page.html')">Pop</ons-button>
-</p>
+
+<div id="detail-container">
+    <h1>タイトル</h1>
+    <input type="text">
+    <h1>メモ</h1>
+    <textarea></textarea>
+</div>
+
 </ons-page>
 </ons-template>
 

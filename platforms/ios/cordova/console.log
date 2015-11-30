@@ -166,3 +166,199 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 
 2015-11-16 16:36:14.780 Onsen UI Project[15991:99331] Resetting plugins due to page load.
 2015-11-16 16:36:14.963 Onsen UI Project[15991:99331] Finished load of: file:///Users/st081422/Library/Developer/CoreSimulator/Devices/CD11CB82-C4BE-4BF5-8156-D80F49F71DBD/data/Containers/Bundle/Application/9A4BE2A8-8E9D-4278-B61C-E81787EB23E0/Onsen%20UI%20Project.app/www/index.html
+2015-11-30 15:36:44.430 Onsen UI Project[6684:51255] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/st081422/Library/Developer/CoreSimulator/Devices/CD11CB82-C4BE-4BF5-8156-D80F49F71DBD/data/Containers/Data/Application/3F229D5B-D0BC-49EE-A0C4-478FC617DDD5/Library/Cookies/Cookies.binarycookies
+2015-11-30 15:36:44.551 Onsen UI Project[6684:51255] Apache Cordova native platform version 3.9.2 is starting.
+2015-11-30 15:36:44.552 Onsen UI Project[6684:51255] Multi-tasking -> Device: YES, App: YES
+2015-11-30 15:36:44.553 Onsen UI Project[6684:51255] Unlimited access to network resources
+2015-11-30 15:36:44.555 Onsen UI Project[6684:51255] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-11-30 15:36:44.698 Onsen UI Project[6684:51255] Resetting plugins due to page load.
+2015-11-30 15:36:44.938 Onsen UI Project[6684:51255] Finished load of: file:///Users/st081422/Library/Developer/CoreSimulator/Devices/CD11CB82-C4BE-4BF5-8156-D80F49F71DBD/data/Containers/Bundle/Application/C7709169-6D0E-4F64-A325-545D039A447B/Onsen%20UI%20Project.app/www/index.html
+2015-11-30 15:37:35.897 Onsen UI Project[6779:52057] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/st081422/Library/Developer/CoreSimulator/Devices/CD11CB82-C4BE-4BF5-8156-D80F49F71DBD/data/Containers/Data/Application/12851410-18BA-4EEC-8400-0BDC2764F822/Library/Cookies/Cookies.binarycookies
+2015-11-30 15:37:36.043 Onsen UI Project[6779:52057] Apache Cordova native platform version 3.9.2 is starting.
+2015-11-30 15:37:36.044 Onsen UI Project[6779:52057] Multi-tasking -> Device: YES, App: YES
+2015-11-30 15:37:36.045 Onsen UI Project[6779:52057] Unlimited access to network resources
+2015-11-30 15:37:36.048 Onsen UI Project[6779:52057] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-11-30 15:37:36.203 Onsen UI Project[6779:52057] Resetting plugins due to page load.
+2015-11-30 15:37:36.526 Onsen UI Project[6779:52057] Finished load of: file:///Users/st081422/Library/Developer/CoreSimulator/Devices/CD11CB82-C4BE-4BF5-8156-D80F49F71DBD/data/Containers/Bundle/Application/B6B78AF5-C9D8-4950-B492-3F67E2373A95/Onsen%20UI%20Project.app/www/index.html
+2015-11-30 15:38:30.235 Onsen UI Project[6891:52720] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/st081422/Library/Developer/CoreSimulator/Devices/CD11CB82-C4BE-4BF5-8156-D80F49F71DBD/data/Containers/Data/Application/8FD388DE-16C6-4CC5-9AB4-49FAFF9020F9/Library/Cookies/Cookies.binarycookies
+2015-11-30 15:38:30.398 Onsen UI Project[6891:52720] Apache Cordova native platform version 3.9.2 is starting.
+2015-11-30 15:38:30.399 Onsen UI Project[6891:52720] Multi-tasking -> Device: YES, App: YES
+2015-11-30 15:38:30.400 Onsen UI Project[6891:52720] Unlimited access to network resources
+2015-11-30 15:38:30.403 Onsen UI Project[6891:52720] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-11-30 15:38:30.554 Onsen UI Project[6891:52720] Resetting plugins due to page load.
+2015-11-30 15:38:30.707 Onsen UI Project[6891:52720] Finished load of: file:///Users/st081422/Library/Developer/CoreSimulator/Devices/CD11CB82-C4BE-4BF5-8156-D80F49F71DBD/data/Containers/Bundle/Application/9318E4C3-B9B6-4C1E-8F8D-A457218AA1DD/Onsen%20UI%20Project.app/www/index.html
+2015-11-30 15:40:32.979 Onsen UI Project[7106:54372] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/st081422/Library/Developer/CoreSimulator/Devices/CD11CB82-C4BE-4BF5-8156-D80F49F71DBD/data/Containers/Data/Application/0B88D32B-3198-4FAC-87D1-F2C8A4797E57/Library/Cookies/Cookies.binarycookies
+2015-11-30 15:40:33.102 Onsen UI Project[7106:54372] Apache Cordova native platform version 3.9.2 is starting.
+2015-11-30 15:40:33.103 Onsen UI Project[7106:54372] Multi-tasking -> Device: YES, App: YES
+2015-11-30 15:40:33.104 Onsen UI Project[7106:54372] Unlimited access to network resources
+2015-11-30 15:40:33.106 Onsen UI Project[7106:54372] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-11-30 15:40:33.256 Onsen UI Project[7106:54372] Resetting plugins due to page load.
+2015-11-30 15:40:33.518 Onsen UI Project[7106:54372] Finished load of: file:///Users/st081422/Library/Developer/CoreSimulator/Devices/CD11CB82-C4BE-4BF5-8156-D80F49F71DBD/data/Containers/Bundle/Application/9BFBE29F-997D-4BEE-B1CA-8BE0304F26D3/Onsen%20UI%20Project.app/www/index.html
+2015-11-30 15:42:37.791 Onsen UI Project[7408:55945] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/st081422/Library/Developer/CoreSimulator/Devices/CD11CB82-C4BE-4BF5-8156-D80F49F71DBD/data/Containers/Data/Application/4598ED85-C5F2-49F7-ACE2-326F0C0046C7/Library/Cookies/Cookies.binarycookies
+2015-11-30 15:42:37.931 Onsen UI Project[7408:55945] Apache Cordova native platform version 3.9.2 is starting.
+2015-11-30 15:42:37.931 Onsen UI Project[7408:55945] Multi-tasking -> Device: YES, App: YES
+2015-11-30 15:42:37.932 Onsen UI Project[7408:55945] Unlimited access to network resources
+2015-11-30 15:42:37.935 Onsen UI Project[7408:55945] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-11-30 15:42:38.091 Onsen UI Project[7408:55945] Resetting plugins due to page load.
+2015-11-30 15:42:38.267 Onsen UI Project[7408:55945] Finished load of: file:///Users/st081422/Library/Developer/CoreSimulator/Devices/CD11CB82-C4BE-4BF5-8156-D80F49F71DBD/data/Containers/Bundle/Application/1B95A843-0342-4A55-9FC4-90BCF830DD6E/Onsen%20UI%20Project.app/www/index.html
+2015-11-30 15:42:53.865 Onsen UI Project[7444:56332] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/st081422/Library/Developer/CoreSimulator/Devices/CD11CB82-C4BE-4BF5-8156-D80F49F71DBD/data/Containers/Data/Application/137E1D36-9B35-4115-AB3F-96AF078D82AC/Library/Cookies/Cookies.binarycookies
+2015-11-30 15:42:54.001 Onsen UI Project[7444:56332] Apache Cordova native platform version 3.9.2 is starting.
+2015-11-30 15:42:54.002 Onsen UI Project[7444:56332] Multi-tasking -> Device: YES, App: YES
+2015-11-30 15:42:54.003 Onsen UI Project[7444:56332] Unlimited access to network resources
+2015-11-30 15:42:54.006 Onsen UI Project[7444:56332] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-11-30 15:42:54.151 Onsen UI Project[7444:56332] Resetting plugins due to page load.
+2015-11-30 15:42:54.335 Onsen UI Project[7444:56332] Finished load of: file:///Users/st081422/Library/Developer/CoreSimulator/Devices/CD11CB82-C4BE-4BF5-8156-D80F49F71DBD/data/Containers/Bundle/Application/4FBFA7F4-6035-4475-90B3-2B238E93A2B7/Onsen%20UI%20Project.app/www/index.html
+2015-11-30 15:44:00.176 Onsen UI Project[7547:57081] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/st081422/Library/Developer/CoreSimulator/Devices/CD11CB82-C4BE-4BF5-8156-D80F49F71DBD/data/Containers/Data/Application/105DBDA6-CAC0-423F-9838-DDD8388C473D/Library/Cookies/Cookies.binarycookies
+2015-11-30 15:44:00.325 Onsen UI Project[7547:57081] Apache Cordova native platform version 3.9.2 is starting.
+2015-11-30 15:44:00.325 Onsen UI Project[7547:57081] Multi-tasking -> Device: YES, App: YES
+2015-11-30 15:44:00.327 Onsen UI Project[7547:57081] Unlimited access to network resources
+2015-11-30 15:44:00.330 Onsen UI Project[7547:57081] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-11-30 15:44:00.471 Onsen UI Project[7547:57081] Resetting plugins due to page load.
+2015-11-30 15:44:00.655 Onsen UI Project[7547:57081] Finished load of: file:///Users/st081422/Library/Developer/CoreSimulator/Devices/CD11CB82-C4BE-4BF5-8156-D80F49F71DBD/data/Containers/Bundle/Application/D2355444-9E34-40B6-944B-F8E16F7343D3/Onsen%20UI%20Project.app/www/index.html
+2015-11-30 15:46:35.916 Onsen UI Project[7759:58936] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/st081422/Library/Developer/CoreSimulator/Devices/CD11CB82-C4BE-4BF5-8156-D80F49F71DBD/data/Containers/Data/Application/AD2AAAB9-14D6-4273-8144-273C65243E28/Library/Cookies/Cookies.binarycookies
+2015-11-30 15:46:35.958 Onsen UI Project[7759:58936] Apache Cordova native platform version 3.9.2 is starting.
+2015-11-30 15:46:35.958 Onsen UI Project[7759:58936] Multi-tasking -> Device: YES, App: YES
+2015-11-30 15:46:35.959 Onsen UI Project[7759:58936] Unlimited access to network resources
+2015-11-30 15:46:35.961 Onsen UI Project[7759:58936] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-11-30 15:46:36.069 Onsen UI Project[7759:58936] Resetting plugins due to page load.
+2015-11-30 15:46:36.212 Onsen UI Project[7759:58936] Finished load of: file:///Users/st081422/Library/Developer/CoreSimulator/Devices/CD11CB82-C4BE-4BF5-8156-D80F49F71DBD/data/Containers/Bundle/Application/05015A75-33F0-43D7-8F4D-F4E0EA8DE0A0/Onsen%20UI%20Project.app/www/index.html
+2015-11-30 15:47:00.397 Onsen UI Project[7812:59456] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/st081422/Library/Developer/CoreSimulator/Devices/CD11CB82-C4BE-4BF5-8156-D80F49F71DBD/data/Containers/Data/Application/6912479E-7B09-4E46-A1FF-757F73356716/Library/Cookies/Cookies.binarycookies
+2015-11-30 15:47:00.480 Onsen UI Project[7812:59456] Apache Cordova native platform version 3.9.2 is starting.
+2015-11-30 15:47:00.481 Onsen UI Project[7812:59456] Multi-tasking -> Device: YES, App: YES
+2015-11-30 15:47:00.482 Onsen UI Project[7812:59456] Unlimited access to network resources
+2015-11-30 15:47:00.484 Onsen UI Project[7812:59456] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-11-30 15:47:00.655 Onsen UI Project[7812:59456] Resetting plugins due to page load.
+2015-11-30 15:47:00.835 Onsen UI Project[7812:59456] Finished load of: file:///Users/st081422/Library/Developer/CoreSimulator/Devices/CD11CB82-C4BE-4BF5-8156-D80F49F71DBD/data/Containers/Bundle/Application/D8BE4A48-6037-4307-98E7-ABC17E1AD16D/Onsen%20UI%20Project.app/www/index.html
+2015-11-30 15:52:22.588 Onsen UI Project[8191:62076] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/st081422/Library/Developer/CoreSimulator/Devices/CD11CB82-C4BE-4BF5-8156-D80F49F71DBD/data/Containers/Data/Application/E492BC3E-8BAD-49C4-BB82-D86DB4487F2E/Library/Cookies/Cookies.binarycookies
+2015-11-30 15:52:22.756 Onsen UI Project[8191:62076] Apache Cordova native platform version 3.9.2 is starting.
+2015-11-30 15:52:22.757 Onsen UI Project[8191:62076] Multi-tasking -> Device: YES, App: YES
+2015-11-30 15:52:22.758 Onsen UI Project[8191:62076] Unlimited access to network resources
+2015-11-30 15:52:22.761 Onsen UI Project[8191:62076] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-11-30 15:52:22.903 Onsen UI Project[8191:62076] Resetting plugins due to page load.
+2015-11-30 15:52:23.102 Onsen UI Project[8191:62076] Finished load of: file:///Users/st081422/Library/Developer/CoreSimulator/Devices/CD11CB82-C4BE-4BF5-8156-D80F49F71DBD/data/Containers/Bundle/Application/6614FACE-60D8-415A-9EE0-4A3A2A3B6F7D/Onsen%20UI%20Project.app/www/index.html
+2015-11-30 15:58:32.960 Onsen UI Project[8698:65810] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/st081422/Library/Developer/CoreSimulator/Devices/CD11CB82-C4BE-4BF5-8156-D80F49F71DBD/data/Containers/Data/Application/5E679CF7-46DA-49F4-B6BD-05D25F1E59BB/Library/Cookies/Cookies.binarycookies
+2015-11-30 15:58:35.022 Onsen UI Project[8698:65810] Apache Cordova native platform version 3.9.2 is starting.
+2015-11-30 15:58:35.022 Onsen UI Project[8698:65810] Multi-tasking -> Device: YES, App: YES
+2015-11-30 15:58:35.023 Onsen UI Project[8698:65810] Unlimited access to network resources
+2015-11-30 15:58:35.025 Onsen UI Project[8698:65810] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-11-30 15:58:35.130 Onsen UI Project[8698:65810] Resetting plugins due to page load.
+2015-11-30 15:58:35.245 Onsen UI Project[8698:65810] Finished load of: file:///Users/st081422/Library/Developer/CoreSimulator/Devices/CD11CB82-C4BE-4BF5-8156-D80F49F71DBD/data/Containers/Bundle/Application/B7262F97-F38B-450E-BFFB-0CB261546074/Onsen%20UI%20Project.app/www/index.html
+2015-11-30 16:40:49.804 Onsen UI Project[12244:94552] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/st081422/Library/Developer/CoreSimulator/Devices/CD11CB82-C4BE-4BF5-8156-D80F49F71DBD/data/Containers/Data/Application/AA24752E-252A-49C0-A231-C97AA8C2A074/Library/Cookies/Cookies.binarycookies
+2015-11-30 16:40:49.904 Onsen UI Project[12244:94552] Apache Cordova native platform version 3.9.2 is starting.
+2015-11-30 16:40:49.904 Onsen UI Project[12244:94552] Multi-tasking -> Device: YES, App: YES
+2015-11-30 16:40:49.905 Onsen UI Project[12244:94552] Unlimited access to network resources
+2015-11-30 16:40:49.907 Onsen UI Project[12244:94552] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-11-30 16:40:50.034 Onsen UI Project[12244:94552] Resetting plugins due to page load.
+2015-11-30 16:40:50.410 Onsen UI Project[12244:94552] Finished load of: file:///Users/st081422/Library/Developer/CoreSimulator/Devices/CD11CB82-C4BE-4BF5-8156-D80F49F71DBD/data/Containers/Bundle/Application/3ECE8788-4291-4734-BBC4-280EB727FF64/Onsen%20UI%20Project.app/www/index.html
+2015-11-30 16:41:06.676 Onsen UI Project[12292:94971] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/st081422/Library/Developer/CoreSimulator/Devices/CD11CB82-C4BE-4BF5-8156-D80F49F71DBD/data/Containers/Data/Application/364DE1BB-8CA6-4923-9817-311FC75DF841/Library/Cookies/Cookies.binarycookies
+2015-11-30 16:41:06.764 Onsen UI Project[12292:94971] Apache Cordova native platform version 3.9.2 is starting.
+2015-11-30 16:41:06.764 Onsen UI Project[12292:94971] Multi-tasking -> Device: YES, App: YES
+2015-11-30 16:41:06.765 Onsen UI Project[12292:94971] Unlimited access to network resources
+2015-11-30 16:41:06.768 Onsen UI Project[12292:94971] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-11-30 16:41:06.900 Onsen UI Project[12292:94971] Resetting plugins due to page load.
+2015-11-30 16:41:07.082 Onsen UI Project[12292:94971] Finished load of: file:///Users/st081422/Library/Developer/CoreSimulator/Devices/CD11CB82-C4BE-4BF5-8156-D80F49F71DBD/data/Containers/Bundle/Application/3C53111D-31F6-480A-BF1C-97FB590DF909/Onsen%20UI%20Project.app/www/index.html
+2015-11-30 16:41:51.535 Onsen UI Project[12391:95683] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/st081422/Library/Developer/CoreSimulator/Devices/CD11CB82-C4BE-4BF5-8156-D80F49F71DBD/data/Containers/Data/Application/F21E319F-ABAF-48C5-9063-7F7B54088DB5/Library/Cookies/Cookies.binarycookies
+2015-11-30 16:41:51.654 Onsen UI Project[12391:95683] Apache Cordova native platform version 3.9.2 is starting.
+2015-11-30 16:41:51.655 Onsen UI Project[12391:95683] Multi-tasking -> Device: YES, App: YES
+2015-11-30 16:41:51.656 Onsen UI Project[12391:95683] Unlimited access to network resources
+2015-11-30 16:41:51.659 Onsen UI Project[12391:95683] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-11-30 16:41:51.784 Onsen UI Project[12391:95683] Resetting plugins due to page load.
+2015-11-30 16:41:51.961 Onsen UI Project[12391:95683] Finished load of: file:///Users/st081422/Library/Developer/CoreSimulator/Devices/CD11CB82-C4BE-4BF5-8156-D80F49F71DBD/data/Containers/Bundle/Application/D4B660D8-E366-48EB-A18E-A0E1DA9FD7F1/Onsen%20UI%20Project.app/www/index.html
